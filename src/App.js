@@ -123,7 +123,7 @@ function App() {
         />
       </main>
       <h1>
-        total spending :
+        Total Amount :
         <span className="total">
           LKR
           {expenses.reduce((acc, curr) => {
